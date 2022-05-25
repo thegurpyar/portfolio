@@ -1,0 +1,83 @@
+#portfolio{
+    background-color: white;
+    margin-bottom: -50px;
+}
+.portfolio{
+    height: 100vh;
+    margin-top: 60px;
+    background-color: white;
+    
+
+}
+.portfolio h1{
+    font-family: 'Roboto', sans-serif;
+    color:#444649;
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: relative;
+
+}
+
+
+.portfolio p{
+
+    text-align: center;
+    color:#616161;
+    font-weight: 400;
+    line-height: 0.3;
+}
+
+.round-image {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-size: cover;
+    display: block;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background-image: url(/public/IMG_0905.jpg);
+    margin-bottom: 50px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.skills{
+    background-color: white;
+}
+/* Container for skill bars */
+.container {
+ 
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #00a1a7;} /* Green */
+.css {width: 80%; background-color: #00a1a7;} /* Blue */
+.js {width: 75%; background-color: #00a1a7;} /* Red */
+.react {width: 80%; background-color: #00a1a7;} /* Dark Grey */
+.node {width: 85%; background-color: #00a1a7;} /* Dark Grey */
+.python {width: 80%; background-color: #00a1a7;}
+@media screen and (max-width: 600px) {
+     p {
+        font-size: 2.1vw
+    }
+    .portfolio{
+        margin-bottom: -50%;
+    }
+  }
+
+
+
